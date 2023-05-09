@@ -1,0 +1,181 @@
+@import url("https://use.typekit.net/kci4kcs.css");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff3d4;
+  background-size: cover;
+  color: black;;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #FF4521;
+}
+
+a:hover {
+  color: #FF4521;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1 0 auto;
+  padding: 80px;
+  /* margin: auto; */
+}
+
+footer {
+  flex: 1 0 auto;
+  z-index: 10;
+}
+
+/* Typography */
+* H1 {
+  font-family: "Rustica", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 64px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #FF4521;
+}
+
+* H2 {
+  color: #FF4521;
+  font-weight: 600;
+}
+
+/* Content Display*/
+.section {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+  /* background: aqua; */
+}
+
+.contentLeft {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-bottom: 24px;
+}
+
+.contentCenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contentRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 24px;
+}
+
+.spacing-md {
+  height: 64px;
+}
+
+/* Prompt UI */
+
+.promptBar {
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  border: 2px solid black;
+  border-bottom: 0px;
+}
+
+.promptTitle {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  padding: 8px 16px 8px 16px;
+}
+
+.promptShuffle {
+  border-left: 2px solid black;
+  padding: 8px 16px 8px 16px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: black;
+}
+
+.promptShuffle:hover {
+  background: #FF4521;
+  color: #fff;
+}
+
+.promptBox {
+  width: 700px;
+  border: 2px solid black;
+  padding: 16px;
+}
+
+.prompttext {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: black;
+}
+
+.prompttext span {
+  text-decoration: underline solid #FF4521;
+}
+
+/* Footer */
+.ft-main {
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+
+.ft-left {
+  /* display: flex;
+  flex-direction: row; */
+  max-width: 420px;
+}
+
+.ft-left ol {
+  padding-left: 32px;
+}
+
+.ft-right {
+  display: flex;
+  flex-direction: row;
+  max-width: 420px;
+}
