@@ -1,6 +1,6 @@
 {
   "adjectives": [
-    "VRcentered",
+    "VR centered",
     "virtual",
     "global",
     "embodied",
@@ -23,7 +23,8 @@
     "connected",
     "regenerative",
     "polarized",
-    "harmonious"
+    "harmonious", 
+    "TEST"
   ],
   "artifacts": [
     "technology",
@@ -47,7 +48,10 @@
     "a standard of care",
     "diagnostic tool",
     "super power",
-    "museum"
+    "museum",
+    "TEST",
+    "TEST",
+    "TEST"
   ],
   "topics": [
     "retinal damage",
@@ -72,6 +76,9 @@
     "environmental health",
     "an experienced wearer",
     "the agining eye",
-    "information"
+    "information", 
+    "TEST",
+    "TEST",
+    "TEST"
   ]
 }

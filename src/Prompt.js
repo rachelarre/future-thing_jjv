@@ -22,8 +22,8 @@ class Prompt extends React.Component {
   futureThings() {
     this.setState({
       adjective: FutureThings.adjectives[this.getRandomInt(24)],
-      artifact: FutureThings.artifacts[this.getRandomInt(21)],
-      topic: FutureThings.topics[this.getRandomInt(21)],
+      artifact: FutureThings.artifacts[this.getRandomInt(24)],
+      topic: FutureThings.topics[this.getRandomInt(24)],
     });
   }
 
