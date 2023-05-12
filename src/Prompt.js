@@ -6,9 +6,9 @@ class Prompt extends React.Component {
   constructor() {
     super();
     this.state = {
-      adjective: FutureThings.adjectives[this.getRandomInt(31)],
-      artifact: FutureThings.artifacts[this.getRandomInt(31)],
-      topic: FutureThings.topics[this.getRandomInt(31)],
+      adjective: FutureThings.adjectives[this.getRandomInt(20)],
+      artifact: FutureThings.artifacts[this.getRandomInt(20)],
+      topic: FutureThings.topics[this.getRandomInt(20)],
     };
     this.futureThings = this.futureThings.bind(this);
   }
