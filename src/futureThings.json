@@ -1,5 +1,6 @@
 {
   "adjectives": [
+    "VR centered",
     "virtual",
     "global",
     "embodied",
@@ -20,6 +21,9 @@
     "inhumane",
     "joyful",
     "connected",
+    "regenerative",
+    "polarized",
+    "disconnected",
     "harmonious"
   ],
   "artifacts": [
@@ -33,6 +37,7 @@
     "advice",
     "monitoring",
     "law",
+    "open source",
     "tax",
     "award",
     "reward",
@@ -40,7 +45,10 @@
     "personal insight",
     "artificial enhancement",
     "protest",
+    "a standard of care",
+    "diagnostic tool",
     "super power",
+    "van",
     "museum"
   ],
   "topics": [
@@ -62,6 +70,10 @@
     "mindfulness",
     "food",
     "competition",
+    "early education",
+    "environmental health",
+    "an experienced wearer",
+    "the agining eye",
     "information"
   ]
 }

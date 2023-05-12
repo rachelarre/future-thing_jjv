@@ -21,9 +21,9 @@ class Prompt extends React.Component {
   // create a function that pulls a random options from the set
   futureThings() {
     this.setState({
-      adjective: FutureThings.adjectives[this.getRandomInt(30)],
-      artifact: FutureThings.artifacts[this.getRandomInt(30)],
-      topic: FutureThings.topics[this.getRandomInt(30)],
+      adjective: FutureThings.adjectives[this.getRandomInt(24)],
+      artifact: FutureThings.artifacts[this.getRandomInt(21)],
+      topic: FutureThings.topics[this.getRandomInt(21)],
     });
   }
 
